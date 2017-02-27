@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="login_text">
+        <attr name="text" format="string" />
+        <attr name="testAttr" format="integer" />
+        <attr name="mode" format="boolean" />
+        <attr name="loginleftIcon" format="reference" />
+        <attr name="leftVisibility" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="dlhlabletext">
+        <attr name="leftIcon" format="reference" />
+        <attr name="leftIconVisibility" format="boolean" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="rightIconVisibility" format="boolean" />
+        <attr name="topLineColor" format="reference" />
+        <attr name="topLineVisibility" format="boolean" />
+        <attr name="bottomLineColor" format="reference" />
+        <attr name="bottomLineVisibility" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dlh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <com.dlh.ui.LoginPasswordEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@color/colorAccent"
+        dlh:loginleftIcon="@drawable/login_user_icon"
+        dlh:leftVisibility="true"
+        dlh:mode="false" />
+
+    <com.dlh.ui.LoginPasswordEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@color/colorAccent"
+        dlh:loginleftIcon="@drawable/login_pass_icon"
+        dlh:leftVisibility="true"
+        dlh:mode="true" />
+
+</LinearLayout>
